@@ -1,22 +1,15 @@
 @charset "UTF-8";
 
-body { margin: 0; padding: 0;}
-
-.container {
-	max-width: 900px;
+.poll_container {margin: 0;
     margin: 0 auto;
     padding: 40px;
     text-align:center;
+	width:950px;
 }
-h2 {
+.poll_container h2 {
 	text-align:center;
 }
-a {    text-decoration: none;    color: #333333; }
-table {
-    width: 100%;
-    border-collapse: collapse;
-    
-}
+
 .table_title {
 	width: 100%;
     border-collapse: collapse;
@@ -28,20 +21,21 @@ table {
 	background-color:#9CA2EE; 
 	padding: 15px; 
 	text-align:center;}
-.table_list { width: 800px; margin-bottom: 20px; text-align: left;}
+.table_list { width: 100%; margin-bottom: 20px; text-align: left;}
 .table_list td ,th {  padding: 10px; }
 	
 .table_list th {
 	border-top : 1px solid #333333;
 	border-bottom : 1px solid #333333;
 }
-.td_center { text-align: center;}
-.td_right { text-align: right;}
+.table_content{ text-align: left;}
+.table_content  th { text-align: center;background-color: #f8f9fa;}
 
-.table_bottom {width: 800px; border-collapse: collapse;margin-bottom: 20px; border-top: 1px solid #555555;}
+
+.table_bottom {width: 100%; border-collapse: collapse;margin-bottom: 20px; border-top: 1px solid #555555;}
 
 .table_form { text-align: left;
-	width: 800px; border-collapse: collapse;margin-bottom: 20px; border: 1px solid #555555;}
+	width: 100%; border-collapse: collapse;margin-bottom: 20px; border: 1px solid #555555;}
 .table_form td {  padding: 20px; }
 .table_form_question {background-color:#9CA2EE;  color: white;}
 
